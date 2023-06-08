@@ -17,7 +17,7 @@ const AuthProvider = ({ children }) => {
     try {
       await new Promise((resolve, reject) => {
         setTimeout(() => {
-          if (username === "akash@123.com" && password === "admin@123") {
+          if (username === "admin" && password === "admin") {
             resolve();
             setIsAuthenticated(true);
             setLoading(false);

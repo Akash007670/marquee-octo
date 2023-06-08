@@ -49,7 +49,7 @@ const Login = () => {
         <form onSubmit={handleLogin}>
           <input
             type="text"
-            placeholder="Enter Username"
+            placeholder="Enter Username (admin)"
             value={username}
             ref={usernameRef}
             className="login-input"
@@ -57,7 +57,7 @@ const Login = () => {
           />
           <input
             type="password"
-            placeholder="Enter Password"
+            placeholder="Enter Password (admin)"
             value={password}
             className="login-input"
             onChange={(e) => setPassword(e.target.value)}
